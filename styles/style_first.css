@@ -1,0 +1,16 @@
+﻿body {
+    font: 11px Verdana, sans-serif;
+    color: #333333;
+    border: 1px sold #0000ff;
+}
+
+#wrapper {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#myImg {
+    float: initial;
+    border: none;
+    margin: 20px 0 20px 50px;
+}

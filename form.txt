@@ -1,0 +1,43 @@
+<h1 id="header">Our F O R M</h1>
+    <form action="data.php" method="post" name="time">
+        <fieldset>
+            <legend>Some information about u</legend>
+            <p><label>Input your name:  <input type="text" name="Name" size="30"></label></p>
+            <p><label>Input your pwd:  <input type="password" name="pwd"></label></p>
+        </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <p>Do u like econom your time&</p>
+            <p><label>Yes:  <input type="radio" name="time" value="Yes"></label></p>
+            <p><label>No:  <input type="radio" name="time" value="No"></label></p>
+
+            <p>
+                What tools do u use?
+                <label>Dayrunner:  <input type="checkbox" disabled name="Dayrunner"></label>
+                <label>Hronometr:  <input type="checkbox" name="Hronometr" checked="checked"></label>
+
+            </p>
+            <p><label for="hours">How much time do u sleep</label></p>
+            <p>
+                <select id="hours" size="2" multiple="true">
+                    <option>5</option>
+                    <option>6</option>
+                    <option value="seven">7</option>
+                    <option selected>8</option>
+                    <option>8+</option>
+                </select>
+            </p>
+        </fieldset>
+        <p><label for="text"> Your tricks to econom time:</label>
+
+    <textarea name="text" id="text" cols="50" rows="20" readonly>You can onle read this... </textarea>
+
+        </p>
+        <input type="reset" name="Reset" value="Clear">
+        <input type="submit" name="submit" value="Send">
+        <p><input type="image" src="images/ibutton.png" name="imageButton"></p>
+        <p><input type="button" name="buttonName" value="ClickMe"/></p>
+        
+
+
+    </form>

@@ -1,0 +1,48 @@
+﻿#wrapper {
+    width: 800px;
+    outline:1px solid #cccccc;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 77px;
+    background-color:#F8AC18;
+    margin-bottom: 12px;
+}
+
+#sidebar {
+    
+    width: 150px;
+    float: left;
+    background-color:#EBEBEB;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+#content {
+    
+    width: 480px;
+    margin:0 auto 12px auto;
+    background-color:#C5161D;
+    
+}
+
+#sidebar2 {
+    
+    width: 150px;
+    float: right;
+    background-color:#EBEBEB;
+    margin-bottom: 12px;
+}
+
+#footer {
+    height: 77px;
+    background-color:#000000;
+    margin-bottom: 12px;
+    
+}
+
+.cb {
+    clear: both;
+}

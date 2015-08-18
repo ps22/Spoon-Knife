@@ -1,0 +1,33 @@
+﻿body{
+	background-image: url("../images/pattern.png");
+	
+	
+}
+
+#main{
+	width: 800px;
+	height: 991px;
+	margin: 29px auto;
+	outline: 1px solid #FFDD00;
+	background-image:  url("../images/bg_s.jpg");
+	background-repeat: repeat-x;
+	background-color: #FFF8C8;
+	
+}
+
+#main h1{
+	text-align: center;
+	padding-top: 182px;
+	outline: 1px solid cc0000;
+	font: 36px Verdana;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-position: 104px 187px;
+	outline: 1px solid #00DD00;
+}
+
+#wrapper {
+	outline: 1px solid 0000cc;	
+
+	background: url(../images/tel.jpg) no-repeat fixed 0 120px;
+}
